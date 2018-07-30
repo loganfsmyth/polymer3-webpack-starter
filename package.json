@@ -32,6 +32,7 @@
     "@vaadin/vaadin-radio-button": "^1.1.0-beta2",
     "@vaadin/vaadin-split-layout": "^4.1.0-beta2",
     "@vaadin/vaadin-tabs": "^2.1.0-beta2",
+    "@vaadin/vaadin-time-picker": "^1.0.0-beta1",
     "@vaadin/vaadin-text-field": "^2.1.0-beta2",
     "@vaadin/vaadin-upload": "^4.2.0-beta2",
     "@webcomponents/webcomponentsjs": "^2.0.3",
