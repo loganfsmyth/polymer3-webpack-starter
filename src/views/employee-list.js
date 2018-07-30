@@ -1,9 +1,9 @@
 import { PolymerElement } from '@polymer/polymer/polymer-element.js';
 import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 import '@polymer/iron-ajax/iron-ajax.js';
-import '@vaadin/vaadin-text-field/vaadin-text-field.js';
-import '@vaadin/vaadin-grid/vaadin-grid.js';
-import '@vaadin/vaadin-grid/vaadin-grid-filter.js';
+import '@vaadin/vaadin-text-field/theme/material/vaadin-text-field.js';
+import '@vaadin/vaadin-grid/theme/material/vaadin-grid.js';
+import '@vaadin/vaadin-grid/theme/material/vaadin-grid-filter.js';
 import '../styles/shared-styles.js';
 
 /**

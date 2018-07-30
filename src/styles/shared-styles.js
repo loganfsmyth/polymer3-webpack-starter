@@ -1,14 +1,11 @@
-import '@vaadin/vaadin-lumo-styles/color.js';
-import '@vaadin/vaadin-lumo-styles/sizing.js';
-import '@vaadin/vaadin-lumo-styles/spacing.js';
-import '@vaadin/vaadin-lumo-styles/style.js';
-import '@vaadin/vaadin-lumo-styles/typography.js';
+import '@vaadin/vaadin-material-styles/color.js';
+import '@vaadin/vaadin-material-styles/typography.js';
 
 const $template = document.createElement('template');
 
 $template.innerHTML = `<dom-module id="shared-styles">
   <template>
-    <style include="lumo-color lumo-typography">
+    <style include="material-color-light material-typography">
       h2 {
         margin: var(--lumo-space-m) 0;
       }
