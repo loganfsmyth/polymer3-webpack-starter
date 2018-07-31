@@ -27,12 +27,11 @@ class StarterApp extends PolymerElement {
           display: block;
         }
         app-header {
-          color: var(--lumo-base-color);
-          background: var(--lumo-primary-color);
+          color: var(--material-primary-contrast-color);
+          background: var(--material-primary-color);
         }
         vaadin-button {
-          margin-right: var(--lumo-space-m);
-          background: var(--lumo-tint);
+          margin-right: 16px;
         }
         vaadin-item {
           padding: 0;
@@ -42,6 +41,7 @@ class StarterApp extends PolymerElement {
           color: inherit;
           outline: none;
           line-height: 36px;
+          text-decoration: none;
         }
         a:hover {
           text-decoration: none;

@@ -1,5 +1,6 @@
 import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 import '@vaadin/vaadin-material-styles/color.js';
+import '@vaadin/vaadin-material-styles/shadow.js';
 import '@vaadin/vaadin-material-styles/typography.js';
 
 const inject = template => document.head.appendChild(template.content);
@@ -13,16 +14,15 @@ inject(html`
 
 inject(html`<dom-module id="shared-styles">
   <template>
-    <style include="material-color-light material-typography">
+    <style include="material-typography">
       h2 {
-        margin: var(--lumo-space-m) 0;
+        margin: 16px 0;
       }
       .card {
-        margin: var(--lumo-space-m);
-        padding: var(--lumo-space-m);
-        border-radius: var(--lumo-border-radius);
-        background: var(--lumo-base-color);
-        box-shadow: var(--lumo-box-shadow-s);
+        margin: 16px;
+        padding: 16px;
+        background: var(--material-background-color);
+        box-shadow: var(--material-shadow-elevation-4dp);
       }
     </style>
   </template>
