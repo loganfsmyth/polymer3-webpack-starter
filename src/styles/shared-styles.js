@@ -1,9 +1,17 @@
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 import '@vaadin/vaadin-material-styles/color.js';
 import '@vaadin/vaadin-material-styles/typography.js';
 
-const $template = document.createElement('template');
+const inject = template => document.head.appendChild(template.content);
 
-$template.innerHTML = `<dom-module id="shared-styles">
+inject(html`
+  <custom-style>
+    <style include="material-typography">
+    </style>
+  </custom-style>
+`);
+
+inject(html`<dom-module id="shared-styles">
   <template>
     <style include="material-color-light material-typography">
       h2 {
@@ -18,6 +26,4 @@ $template.innerHTML = `<dom-module id="shared-styles">
       }
     </style>
   </template>
-</dom-module>`;
-
-document.head.appendChild($template.content);
+</dom-module>`);
