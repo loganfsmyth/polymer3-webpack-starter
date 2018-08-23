@@ -27,6 +27,7 @@
     "@vaadin/vaadin-list-box": "^1.1.0",
     "@vaadin/vaadin-lumo-styles": "^1.1.0",
     "@vaadin/vaadin-notification": "^1.1.0",
+    "@vaadin/vaadin-material-styles": "^1.1.2",
     "@vaadin/vaadin-ordered-layout": "^1.1.0",
     "@vaadin/vaadin-progress-bar": "^1.1.0",
     "@vaadin/vaadin-radio-button": "^1.1.0",
